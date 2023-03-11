@@ -1,0 +1,18 @@
+*~
+*.pyc
+.kdev4/
+
+/*.txt.user
+/*.kdev4
+
+# Default build and install locations
+/build*/
+/install
+.cmake/
+/.clang-format
+/compile_commands.json
+.clangd
+.cache
+.idea
+/cmake-build*
+.stfolder/

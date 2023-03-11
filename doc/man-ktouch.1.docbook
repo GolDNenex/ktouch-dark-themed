@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<!DOCTYPE refentry PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN" "dtd/kdedbx45.dtd" [
+<!ENTITY i18n-ktouch "<application>Typewriting Trainer</application>">
+<!ENTITY % English "INCLUDE">
+]>
+
+<refentry lang="&language;">
+<refentryinfo>
+<title>&ktouch; User's Manual</title>
+<author><firstname>Ben</firstname><surname>Burton</surname>
+<contrib>&ktouch; man page.</contrib>
+<email>bab@debian.org</email></author>
+<date>2021-01-05</date>
+<releaseinfo>&ktouch; 2.3.0 (Applications 20.12)</releaseinfo>
+<productname>KDE Applications</productname>
+</refentryinfo>
+
+<refmeta>
+<refentrytitle><command>ktouch</command></refentrytitle>
+<manvolnum>1</manvolnum>
+</refmeta>
+
+<refnamediv>
+<refname><command>ktouch</command></refname>
+<refpurpose>A typing tutor by &kde;</refpurpose>
+</refnamediv>
+
+<refsynopsisdiv>
+<cmdsynopsis>
+<command>ktouch</command>
+<group choice="opt"><option>--resource-editor</option></group>
+<group choice="opt"><option>-I --import-path</option> <replaceable>path</replaceable></group>
+</cmdsynopsis>
+</refsynopsisdiv>
+
+<refsect1>
+<title>Description</title>
+<para>&i18n-ktouch; is a program for learning touch typing. It helps you learn
+to type on a keyboard quickly and correctly. Every finger has it's place on
+the keyboard with associated keys to press.</para> 
+<para>&i18n-ktouch; helps you learn to touch type by providing you with text to
+train on, and adjusts to different levels depending on how good you are. It
+can display which key to press next, and correct finger to use.</para>
+<para>This application is part of the official &kde; education
+module.</para>
+</refsect1>
+
+<refsect1>
+<title>&ktouch; Options</title>
+<variablelist>
+<varlistentry>
+<term><option>--resource-editor</option></term>
+<listitem><para>Launch the course and keyboard layout editor.</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><option>-I --import-path</option> <replaceable>path</replaceable></term>
+<listitem><para>Prepend the path to the list of QML import paths.</para></listitem>
+</varlistentry>
+</variablelist>
+
+</refsect1>
+
+<refsect1>
+<title>See Also</title>
+<simplelist>
+<member>More detailed user documentation is available from <ulink
+url="help:/ktouch">help:/ktouch</ulink>
+(either enter this &URL; into &konqueror;, or run
+<userinput><command>khelpcenter</command> <parameter>help:/ktouch</parameter></userinput>).</member>
+<member>kf5options(7)</member> <!-- only for application with a GUI-->
+<member>qt5options(7)</member> <!-- only for application with a GUI-->
+<member>There is also further information available at the <ulink
+url="https://edu.kde.org/ktouch/">&kde; education website</ulink>.</member>
+</simplelist>
+
+</refsect1>
+
+<refsect1>
+<title>Authors</title>
+<para>&ktouch; was written by <personname><firstname>Haavard</firstname><surname>Froeiland</surname></personname> <email>haavard@users.sourceforge.net</email> and <personname><firstname>Andreas</firstname><surname>Nicolai</surname></personname> <email>Andreas.Nicolai@gmx.net</email>.This manual page based on the one prepared for &Debian; by <personname>
+<firstname>Ben</firstname><surname>Burton</surname></personname>
+</para>
+</refsect1>
+
+</refentry>
